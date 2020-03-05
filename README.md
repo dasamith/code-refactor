@@ -9,6 +9,7 @@ Engaging with your customers and leads on social media helps you build stronger 
 
 ## Build status
 project still in development phase
+github builds: https://dasamith.github.io/homework1/
 
 Build status of continus integratio
 tools: (to be used):
