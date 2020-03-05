@@ -2,17 +2,33 @@
 <html lang="en-us">
 
 <head>
+
+    <!-- 
+        index.html for Horiseon 
+        @author Amith Das amith123.ad@gmail.com
+        @required style.css
+     
+     -->
+
     <meta charset="UTF-8" />
+
+    <!-- stylesheet included, style.css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>optimization</title>
 </head>
 
 <body>
-    <!-- this is the main navigation for that page -->
+    <!-- 
+        this is a navigation bar for the home page
+        it contains 3 items
+        all of them contains a href#
+    -->
     <nav class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
             <ul>
+                <!-- list items -->
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -25,9 +41,22 @@
             </ul>
         </div>
     </nav>
-    <!-- this is the contant for that page -->
+
+
+    <!-- 
+        figure class contains the backgroung image, 
+        image refererance is in style.css file
+    -->
     <figure class="hero"></figure>
+
+    <!-- 
+        html tag article,
+        class name = content,
+        class contains 3 sections,
+        each section is a #href to navigation bar items
+     -->
     <article class="content">
+        <!-- This is one of the section for that page which called search-engine-optimization -->
         <section id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="search engine optimization"
                 class="float-left" />
@@ -38,6 +67,8 @@
                 your visibility and find the right customers for your business.
             </p>
         </section>
+
+        <!-- This is one of the section for that page which called Online Reputation Management -->
         <section id="online-reputation-management" class="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" alt="online reputatin management"
                 class="float-right" />
@@ -48,6 +79,8 @@
                 you the control over what potential customers see when they search for your business.
             </p>
         </section>
+
+        <!-- This is another of the section for that page which called Social Media Marketing  -->
         <section id="social-media-marketing" class="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" alt="social media marketing" class="float-left" />
             <h3>Social Media Marketing</h3>
@@ -58,6 +91,16 @@
             </p>
         </section>
     </article>
+
+
+
+    <!-- 
+        html tag article
+        class name = benefits,
+        class contains 3 sections,
+        each section is a #href to navigation bar items
+     -->
+
     <article class="benefits">
         <section class="benefit-lead">
             <h4>Lead Generation</h4>
@@ -67,6 +110,7 @@
                 to your website.
             </p>
         </section>
+
         <section class="benefit-brand">
             <h4>Brand Awareness</h4>
             <img src="./assets/images/brand-awareness.png" alt="brand awareness" />
@@ -75,6 +119,7 @@
                 for your business.
             </p>
         </section>
+
         <section class="benefit-cost">
             <h4>Cost Management</h4>
             <img src="./assets/images/cost-management.png" alt="cost management"></img>
@@ -84,6 +129,11 @@
             </p>
         </section>
     </article>
+
+    <!-- 
+        html tag footer,
+        class name footer,
+     -->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
